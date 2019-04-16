@@ -13,6 +13,18 @@ Add Custom ACF Field to select Nav Menus
 
 Add Custom ACF Field to select Nav Menus
 
+### Usage
+```
+$menu_id = get_field('_field_name' );
+if( $menu_id ){
+  $menu = get_term($menu_id);
+  wp_nav_menu( array(
+    'menu' => $menu,
+  ) );
+}
+
+```
+
 ### Compatibility ###
 
 This ACF field type is compatible with:

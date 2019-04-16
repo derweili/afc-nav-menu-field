@@ -16,9 +16,9 @@ if( ! defined( 'ABSPATH' ) ) exit;
 
 
 // check if class already exists
-if( !class_exists('DERWEILI_acf_plugin_NAV_MENUS') ) :
+if( !class_exists('Derweili_Afc_Nav_Menu') ) :
 
-class DERWEILI_acf_plugin_NAV_MENUS {
+class Derweili_Afc_Nav_Menu {
 
 	// vars
 	var $settings;
@@ -96,7 +96,7 @@ class DERWEILI_acf_plugin_NAV_MENUS {
 
 
 // initialize
-new DERWEILI_acf_plugin_NAV_MENUS();
+new Derweili_Afc_Nav_Menu();
 
 
 // class_exists check

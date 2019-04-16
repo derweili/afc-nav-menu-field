@@ -4,7 +4,8 @@
   "main": "Gruntfile.js",
   "author": "derweili",
   "scripts": {
-    "pot": "grunt",
+    "start" : "grunt",
+    "pot": "grunt i18n",
     "readme": "grunt readme"
   },
   "devDependencies": {

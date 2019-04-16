@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: ACF Nav Menus Field
- * Plugin URI: https://derweili.de
  * @package derweili-acf-nav-menu-field
  * @author derweili
  * @license GPL-2.0+

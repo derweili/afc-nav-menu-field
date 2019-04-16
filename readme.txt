@@ -19,6 +19,17 @@ This ACF field type is compatible with:
 * ACF 5
 * ACF 4
 
+== Usage ==
+```
+$menu_id = get_field('_field_name' );
+if( $menu_id ){
+  $menu = get_term($menu_id);
+  wp_nav_menu( array(
+    'menu' => $menu,
+  ) );
+}
+
+```
 == Installation ==
 
 1. Copy the `acf-FIELD-NAME` folder into your `wp-content/plugins` folder
